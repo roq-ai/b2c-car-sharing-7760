@@ -1,0 +1,2772 @@
+[
+  {
+    "operations_dashboard": [
+      {
+        "id": "a5b134ca-fb12-4622-bb72-01cfdcd6a898",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T20:05:46.171Z",
+        "updated_at": "2023-09-27T13:30:21.145Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7d46ede-d958-4629-9bbd-372891f54400",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for analyzing marketing campaigns",
+        "created_at": "2023-09-27T19:49:27.909Z",
+        "updated_at": "2023-09-27T09:31:51.303Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25d4f919-952f-4ca8-a958-576bcf888d89",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial reporting",
+        "created_at": "2023-09-27T09:43:38.387Z",
+        "updated_at": "2023-09-27T20:56:51.260Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99b384d6-538c-42eb-ae01-cb2bd3c60e2f",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T15:37:10.121Z",
+        "updated_at": "2023-09-28T00:57:46.131Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b77f9d88-45c4-48c5-a64e-2008311b2203",
+        "dashboard_name": "Inventory Dashboard",
+        "dashboard_description": "Dashboard for monitoring inventory levels",
+        "created_at": "2023-09-27T06:05:34.987Z",
+        "updated_at": "2023-09-27T07:43:04.854Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "6846f908-18a0-42e2-9bc3-65f546b46695",
+        "manager_name": "John Smith",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-27T05:07:52.732Z",
+        "updated_at": "2023-09-28T02:33:15.985Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c6ad9b52-5e05-49fe-be01-cc642ac57367",
+        "manager_name": "Jane Doe",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-27T09:22:21.326Z",
+        "updated_at": "2023-09-27T12:26:51.744Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7041faa2-f572-4326-b7f3-1013f925b60e",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Street",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T04:14:21.512Z",
+        "updated_at": "2023-09-27T06:54:54.321Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "39accc81-2448-4b42-aa29-2b47d4aba1dd",
+        "manager_name": "Sarah Jones",
+        "contact_number": "888-999-0000",
+        "address": "321 Maple Street",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T01:08:52.651Z",
+        "updated_at": "2023-09-27T17:58:16.825Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f4dbec0-2ccc-47dc-9cdb-1617ba2856d9",
+        "manager_name": "Robert Wilson",
+        "contact_number": "111-222-3333",
+        "address": "654 Pine Street",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-09-27T06:14:52.053Z",
+        "updated_at": "2023-09-27T10:04:21.820Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "be05fbbe-477c-44b9-8f5a-d3f9a87ca6e1",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 29185,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": true,
+        "created_at": "2023-09-27T07:49:21.145Z",
+        "updated_at": "2023-09-27T22:37:34.310Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "de156dd0-8a61-45fd-b89c-c7a1e728bff7",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 48096,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": true,
+        "created_at": "2023-09-27T13:09:47.397Z",
+        "updated_at": "2023-09-27T18:30:22.664Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06ad868c-5291-4895-bbc9-8030e2c2e412",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 47940,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability": true,
+        "created_at": "2023-09-27T14:22:38.115Z",
+        "updated_at": "2023-09-27T13:10:37.111Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c3c9f255-b8bd-49d9-96b7-dbfb1217ba50",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 65823,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "availability": true,
+        "created_at": "2023-09-27T09:23:10.879Z",
+        "updated_at": "2023-09-27T20:40:14.255Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bd3da179-fb39-46d4-ad2c-97095afefbb7",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 543,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "availability": true,
+        "created_at": "2023-09-27T19:18:38.382Z",
+        "updated_at": "2023-09-27T17:16:54.452Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8c309209-d288-4d31-a0b4-0cb950bd182d",
+        "start_time": "2023-09-27T12:05:26.593Z",
+        "end_time": "2023-09-27T15:00:15.562Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "status": "Pending",
+        "created_at": "2023-09-27T22:06:21.352Z",
+        "updated_at": "2023-09-28T03:23:52.731Z",
+        "car_id": "de156dd0-8a61-45fd-b89c-c7a1e728bff7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19c12202-0bf6-480d-b14c-1921744655f1",
+        "start_time": "2023-09-27T21:31:27.679Z",
+        "end_time": "2023-09-27T18:40:40.915Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Train Station",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T06:32:26.283Z",
+        "updated_at": "2023-09-27T23:53:30.874Z",
+        "car_id": "bd3da179-fb39-46d4-ad2c-97095afefbb7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d00a4e6-9a79-4126-8dfe-9bf69a58e5fb",
+        "start_time": "2023-09-28T02:29:41.616Z",
+        "end_time": "2023-09-27T20:01:42.950Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T20:35:40.581Z",
+        "updated_at": "2023-09-28T03:35:32.025Z",
+        "car_id": "06ad868c-5291-4895-bbc9-8030e2c2e412",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc6c439a-5057-484d-abcf-a91e61c2a67d",
+        "start_time": "2023-09-28T02:52:29.904Z",
+        "end_time": "2023-09-27T20:39:20.849Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Office",
+        "status": "Completed",
+        "created_at": "2023-09-28T04:06:54.108Z",
+        "updated_at": "2023-09-28T00:04:20.553Z",
+        "car_id": "be05fbbe-477c-44b9-8f5a-d3f9a87ca6e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f86deaed-fd9a-4a8d-8837-fee5e7a765e5",
+        "start_time": "2023-09-27T17:04:56.197Z",
+        "end_time": "2023-09-27T17:42:26.999Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Shopping Mall",
+        "status": "In Progress",
+        "created_at": "2023-09-28T03:10:54.943Z",
+        "updated_at": "2023-09-27T19:36:37.837Z",
+        "car_id": "06ad868c-5291-4895-bbc9-8030e2c2e412",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f11c9ded-3d27-42bd-aab6-2002d271aa21",
+        "email": "Dessie.Von@roq.tech",
+        "firstName": "Elda",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/527.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da21d2ca-99ff-49a8-8bd0-8ab3cb76b2f8",
+        "email": "Malvina98@roq.tech",
+        "firstName": "Belle",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99158656",
+        "tenantId": null
+      },
+      {
+        "reference": "f60ec1b2-6011-439a-b03e-fe0c7b3a8ca4",
+        "email": "Ezekiel_Rosenbaum4@roq.tech",
+        "firstName": "Lucie",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43187114",
+        "tenantId": null
+      },
+      {
+        "reference": "0ba17c8d-4b36-4ae8-b6c1-9db6b171ad39",
+        "email": "Angelica.Murazik@roq.tech",
+        "firstName": "Chad",
+        "lastName": "Borer-Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1126.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80287105-4138-45c2-a511-380ddb144243",
+        "email": "Rosalia.Mraz@roq.tech",
+        "firstName": "Geo",
+        "lastName": "Mayert-Hammes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/668.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "f00e0515-c226-4e8f-ab11-1bb454b5adb4",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-28T03:51:40.266Z",
+        "updated_at": "2023-09-27T15:32:14.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d5029ab-51bf-447a-9184-2ff5d97c678a",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for analyzing marketing campaigns",
+        "created_at": "2023-09-27T08:20:55.852Z",
+        "updated_at": "2023-09-27T15:33:47.134Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3dfc79aa-87a2-4a0b-ab66-34853369581b",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for monitoring financial metrics",
+        "created_at": "2023-09-27T23:08:38.034Z",
+        "updated_at": "2023-09-27T19:46:58.716Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c05e6c8-6475-4e96-821e-00836424a0ce",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T05:43:56.451Z",
+        "updated_at": "2023-09-27T14:16:10.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1cceaf1-52f4-4ed3-9d94-973773dd2348",
+        "dashboard_name": "Inventory Dashboard",
+        "dashboard_description": "Dashboard for tracking inventory levels",
+        "created_at": "2023-09-27T06:03:13.995Z",
+        "updated_at": "2023-09-28T00:53:46.959Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "5cf273e4-d7bc-4812-8063-5d31854519d1",
+        "manager_name": "John Smith",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T03:02:22.687Z",
+        "updated_at": "2023-09-27T13:02:03.555Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "18906814-4cbe-4313-b396-b29b1e1d13cd",
+        "manager_name": "Jane Doe",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-27T05:00:47.924Z",
+        "updated_at": "2023-09-28T00:44:51.076Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ae925b2c-d9de-49a4-97df-9b1652d6ce21",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-27T20:23:28.445Z",
+        "updated_at": "2023-09-27T21:00:33.333Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fbf60cb6-9bd7-427e-9a58-9e715b214278",
+        "manager_name": "Sarah Jones",
+        "contact_number": "888-999-0000",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-27T06:32:32.466Z",
+        "updated_at": "2023-09-27T09:40:37.183Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "830b4795-4e47-47c9-8ab0-47cbbfe8ce03",
+        "manager_name": "Robert Wilson",
+        "contact_number": "111-222-3333",
+        "address": "654 Maple Court",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-28T04:17:57.384Z",
+        "updated_at": "2023-09-27T08:56:56.102Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d39f594b-61d2-4d6c-a010-edb6772d566d",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 30773,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": true,
+        "created_at": "2023-09-27T20:33:44.628Z",
+        "updated_at": "2023-09-28T00:03:05.226Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8a35126a-c361-4aaf-b700-2be79726dfb4",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 49746,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": false,
+        "created_at": "2023-09-27T18:10:52.740Z",
+        "updated_at": "2023-09-27T09:18:00.883Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "441f471c-55b9-4b2d-8c79-d841020d41d3",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 10092,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability": true,
+        "created_at": "2023-09-28T03:05:13.345Z",
+        "updated_at": "2023-09-27T12:48:17.212Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "500305d6-9d34-4fb3-9f5b-055399a02e8b",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 8412,
+        "color": "Silver",
+        "license_plate": "789XYZ",
+        "availability": true,
+        "created_at": "2023-09-28T00:47:49.943Z",
+        "updated_at": "2023-09-27T13:09:01.923Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "de28a21f-b793-4952-8924-0475ffae6f4b",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 87660,
+        "color": "Black",
+        "license_plate": "QWE456",
+        "availability": true,
+        "created_at": "2023-09-27T21:49:21.835Z",
+        "updated_at": "2023-09-27T20:00:21.869Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "122e1132-10f9-471e-a021-d2869f3684e1",
+        "start_time": "2023-09-27T07:26:26.683Z",
+        "end_time": "2023-09-27T14:21:35.461Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "status": "Pending",
+        "created_at": "2023-09-28T03:49:56.438Z",
+        "updated_at": "2023-09-27T16:54:45.022Z",
+        "car_id": "8a35126a-c361-4aaf-b700-2be79726dfb4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a450c25-6c01-4d3f-9a5e-d2ee0551587a",
+        "start_time": "2023-09-28T01:22:24.185Z",
+        "end_time": "2023-09-27T23:23:00.687Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T20:34:39.248Z",
+        "updated_at": "2023-09-27T09:55:06.835Z",
+        "car_id": "500305d6-9d34-4fb3-9f5b-055399a02e8b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a86374c-19e7-45a4-ad03-046435054e5f",
+        "start_time": "2023-09-27T16:51:22.279Z",
+        "end_time": "2023-09-27T14:32:11.714Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T22:11:57.781Z",
+        "updated_at": "2023-09-27T16:51:05.603Z",
+        "car_id": "de28a21f-b793-4952-8924-0475ffae6f4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20ab1688-ca18-4669-97f1-1c7bf4d623c4",
+        "start_time": "2023-09-27T06:18:06.177Z",
+        "end_time": "2023-09-27T13:11:47.169Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "status": "Completed",
+        "created_at": "2023-09-27T18:11:33.625Z",
+        "updated_at": "2023-09-28T02:03:02.039Z",
+        "car_id": "8a35126a-c361-4aaf-b700-2be79726dfb4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3008d64-11ce-4794-a585-7853cb61406b",
+        "start_time": "2023-09-27T20:40:28.747Z",
+        "end_time": "2023-09-27T08:23:14.620Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "status": "In Progress",
+        "created_at": "2023-09-28T03:05:09.889Z",
+        "updated_at": "2023-09-27T10:50:03.260Z",
+        "car_id": "de28a21f-b793-4952-8924-0475ffae6f4b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0e832123-a90f-4fb6-8810-b9365a97be11",
+        "email": "Jayce80@roq.tech",
+        "firstName": "Bryon",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4abbeed-ddb8-4ac4-be43-42b863ad3798",
+        "email": "Richie.Altenwerth2@roq.tech",
+        "firstName": "Cordie",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12309130",
+        "tenantId": null
+      },
+      {
+        "reference": "07d54fce-1709-4f5d-998b-dcf5bcca84b7",
+        "email": "Clemens_Schowalter59@roq.tech",
+        "firstName": "Garrett",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/677.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "601ec2ac-69fd-4c3e-89ca-e7c566803f58",
+        "email": "Erik.Gleichner51@roq.tech",
+        "firstName": "Edwardo",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18876531",
+        "tenantId": null
+      },
+      {
+        "reference": "72394d6b-f5d6-497c-8224-bd3c0513d8ef",
+        "email": "Margarete_Willms@roq.tech",
+        "firstName": "Onie",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74086706",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "2ef46b9f-33ab-4536-9f17-73dbfee9d9e3",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T23:13:42.983Z",
+        "updated_at": "2023-09-27T05:04:30.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2f636c7-fdf1-474a-b64a-a276f9f480e9",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for analyzing marketing campaigns",
+        "created_at": "2023-09-28T01:47:03.218Z",
+        "updated_at": "2023-09-28T01:57:31.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db948911-ccd9-4a8d-bdee-e56fae31d02a",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for monitoring financial metrics",
+        "created_at": "2023-09-27T22:24:20.444Z",
+        "updated_at": "2023-09-27T22:46:49.750Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4469b05e-c183-4253-b3d0-862a7db40dfb",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T10:55:50.404Z",
+        "updated_at": "2023-09-27T13:05:16.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "863f6d6c-841d-4656-b817-c20e945c35f6",
+        "dashboard_name": "Production Dashboard",
+        "dashboard_description": "Dashboard for tracking production efficiency",
+        "created_at": "2023-09-27T05:06:36.950Z",
+        "updated_at": "2023-09-27T10:20:32.490Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "b63d8c42-d97d-4dbe-bf21-8e39ee063ebd",
+        "manager_name": "John Doe",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-27T18:15:22.451Z",
+        "updated_at": "2023-09-27T11:15:57.638Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c22dd2d0-0464-4a7d-9e21-1f28f84b6652",
+        "manager_name": "Jane Smith",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-27T21:32:30.018Z",
+        "updated_at": "2023-09-27T16:20:41.800Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a9d23b5d-cf85-4f0b-a332-95383d6341fa",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-27T14:29:13.853Z",
+        "updated_at": "2023-09-27T21:04:36.071Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d3324e5-6cac-424f-88d1-27da251e54f0",
+        "manager_name": "Sarah Jones",
+        "contact_number": "999-888-7777",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-27T16:46:18.080Z",
+        "updated_at": "2023-09-27T20:08:51.611Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "570400d3-e31a-4b4c-9991-53f6a8c20148",
+        "manager_name": "Robert Wilson",
+        "contact_number": "444-555-6666",
+        "address": "654 Maple Court",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-27T14:40:58.414Z",
+        "updated_at": "2023-09-27T06:35:22.501Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "e5d386f9-f2ef-4418-90f4-7358ddeb3dfd",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 81912,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": true,
+        "created_at": "2023-09-27T22:05:54.292Z",
+        "updated_at": "2023-09-28T01:47:44.166Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "986e2bb2-8f3c-4a4c-a84d-f62d005a710a",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 63730,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": true,
+        "created_at": "2023-09-27T07:12:47.067Z",
+        "updated_at": "2023-09-28T00:32:27.307Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "32fe9080-d6bb-4b6e-a8d7-3435f4494cc8",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 84836,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability": true,
+        "created_at": "2023-09-27T09:05:53.294Z",
+        "updated_at": "2023-09-27T07:01:29.465Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0456a8f5-67c9-4e40-b5a1-7cafd5af9173",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 42277,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability": true,
+        "created_at": "2023-09-27T22:34:07.572Z",
+        "updated_at": "2023-09-27T14:13:50.514Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c1d5a8d5-87df-4e07-8449-59dfc3c88d6a",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 38108,
+        "color": "White",
+        "license_plate": "456DEF",
+        "availability": true,
+        "created_at": "2023-09-27T15:25:44.256Z",
+        "updated_at": "2023-09-27T11:34:47.801Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b632c8fa-0f4e-47f1-a826-5717cdff2588",
+        "start_time": "2023-09-27T12:37:21.522Z",
+        "end_time": "2023-09-27T12:12:05.959Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "status": "Pending",
+        "created_at": "2023-09-27T06:32:36.062Z",
+        "updated_at": "2023-09-27T09:13:15.963Z",
+        "car_id": "986e2bb2-8f3c-4a4c-a84d-f62d005a710a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a5ff7d4-cc45-4bef-a3da-3bd85cc429e6",
+        "start_time": "2023-09-28T01:15:27.422Z",
+        "end_time": "2023-09-27T14:11:37.759Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Park",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T17:23:51.406Z",
+        "updated_at": "2023-09-27T13:54:51.121Z",
+        "car_id": "e5d386f9-f2ef-4418-90f4-7358ddeb3dfd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79e42ee7-aca7-4b47-adb0-73850c40bca4",
+        "start_time": "2023-09-28T00:05:02.659Z",
+        "end_time": "2023-09-27T07:30:50.748Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Museum",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T17:45:52.909Z",
+        "updated_at": "2023-09-27T22:02:34.189Z",
+        "car_id": "986e2bb2-8f3c-4a4c-a84d-f62d005a710a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55f410a7-1272-4162-b612-4c9261284f92",
+        "start_time": "2023-09-27T14:26:55.330Z",
+        "end_time": "2023-09-28T00:01:15.560Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Beach",
+        "status": "Completed",
+        "created_at": "2023-09-27T13:35:35.633Z",
+        "updated_at": "2023-09-27T12:46:59.236Z",
+        "car_id": "e5d386f9-f2ef-4418-90f4-7358ddeb3dfd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2e72b2f-a7bc-4e62-ab5b-b88a65807610",
+        "start_time": "2023-09-28T04:16:32.247Z",
+        "end_time": "2023-09-27T17:10:02.685Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Movie Theater",
+        "status": "In Progress",
+        "created_at": "2023-09-28T00:03:40.687Z",
+        "updated_at": "2023-09-28T02:06:35.383Z",
+        "car_id": "986e2bb2-8f3c-4a4c-a84d-f62d005a710a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bbfe9c49-129e-45b4-94e3-a311ff454f52",
+        "email": "Fausto_Schimmel@roq.tech",
+        "firstName": "Ernestina",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/328.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba5f6086-f517-44cc-b129-681321e4fe99",
+        "email": "Cleve_Donnelly85@roq.tech",
+        "firstName": "Fritz",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11085947",
+        "tenantId": null
+      },
+      {
+        "reference": "46ef3f3e-ad12-4db3-8161-f41746fa4397",
+        "email": "Thaddeus_Gusikowski@roq.tech",
+        "firstName": "Aubrey",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "839044cf-74d5-4418-a3d3-a0918ed5c566",
+        "email": "Haleigh_Weimann@roq.tech",
+        "firstName": "Keagan",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8464037",
+        "tenantId": null
+      },
+      {
+        "reference": "2c674126-9851-4971-9ce0-1ca4ad7b6bf6",
+        "email": "Trever14@roq.tech",
+        "firstName": "Judah",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3046095",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "5f3451f9-ced6-412c-8121-db80d0a5ff3f",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T07:56:51.521Z",
+        "updated_at": "2023-09-27T17:01:09.400Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea41e0e4-1a51-4170-96b7-ccf6c5605c98",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for monitoring marketing campaigns",
+        "created_at": "2023-09-27T23:32:32.131Z",
+        "updated_at": "2023-09-27T19:07:48.505Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23f58d68-675e-44c7-93a4-e8126fcda8fd",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial analysis",
+        "created_at": "2023-09-27T06:08:01.016Z",
+        "updated_at": "2023-09-27T23:12:23.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "958b4a68-1d84-4682-ba5b-ed581ccf1587",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T23:54:36.377Z",
+        "updated_at": "2023-09-27T08:12:48.566Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b22c7c4-b129-4032-a10f-7cdb3a531a74",
+        "dashboard_name": "Product Dashboard",
+        "dashboard_description": "Dashboard for tracking product development",
+        "created_at": "2023-09-27T05:00:29.541Z",
+        "updated_at": "2023-09-27T06:45:59.170Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "876bd478-fd65-4789-87b2-8f707b48f3b0",
+        "manager_name": "John Smith",
+        "contact_number": "123-456-7890",
+        "address": "789 Elm Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T00:34:09.324Z",
+        "updated_at": "2023-09-27T22:33:42.715Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f34e8dec-8c48-4dea-b75c-939e5416abf6",
+        "manager_name": "Jane Doe",
+        "contact_number": "987-654-3210",
+        "address": "321 Oak Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-27T09:12:21.361Z",
+        "updated_at": "2023-09-27T14:36:57.766Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8819a623-2cbc-40d0-bcf5-f2248fdfe6ea",
+        "manager_name": "Michael Johnson",
+        "contact_number": "555-123-4567",
+        "address": "654 Maple Street",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-27T19:39:19.953Z",
+        "updated_at": "2023-09-27T17:18:55.980Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a3aff4c1-76b6-448d-85e6-a7999fad6fc4",
+        "manager_name": "Emily Brown",
+        "contact_number": "888-999-0000",
+        "address": "987 Pine Street",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-27T20:16:37.799Z",
+        "updated_at": "2023-09-28T03:10:21.561Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "111c5f74-9fca-4875-add5-0bc73d691b6b",
+        "manager_name": "David Wilson",
+        "contact_number": "111-222-3333",
+        "address": "123 Cedar Street",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-27T05:56:12.140Z",
+        "updated_at": "2023-09-27T23:48:58.392Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "10168ff4-c10b-4188-86b6-57d68452611c",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 38760,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": false,
+        "created_at": "2023-09-28T03:21:32.795Z",
+        "updated_at": "2023-09-27T20:37:40.617Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1a0682e9-a89c-4ce3-87c3-13435b102b8b",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 15722,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": false,
+        "created_at": "2023-09-28T01:11:14.127Z",
+        "updated_at": "2023-09-27T14:05:30.888Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8e909aa1-4a1f-4a65-9d20-adf4e8b6038f",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 13943,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability": true,
+        "created_at": "2023-09-27T17:26:22.696Z",
+        "updated_at": "2023-09-27T06:00:49.490Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "001a80f8-6017-4694-9e04-d27a6d1f2c58",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 95119,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability": false,
+        "created_at": "2023-09-27T17:28:43.368Z",
+        "updated_at": "2023-09-27T19:33:20.720Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "45653a62-7d1f-4164-be52-49b0b76b880c",
+        "model": "Minivan",
+        "make": "BMW",
+        "year": 66518,
+        "color": "White",
+        "license_plate": "QWE456",
+        "availability": false,
+        "created_at": "2023-09-27T19:48:13.501Z",
+        "updated_at": "2023-09-28T02:59:13.536Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "448e75e3-21de-455d-9a0f-e9ecdd23050a",
+        "start_time": "2023-09-27T08:25:05.837Z",
+        "end_time": "2023-09-27T13:42:53.849Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "status": "Pending",
+        "created_at": "2023-09-27T12:45:41.458Z",
+        "updated_at": "2023-09-27T16:17:43.670Z",
+        "car_id": "45653a62-7d1f-4164-be52-49b0b76b880c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6075b67-6001-4f99-80b0-0756470a3c68",
+        "start_time": "2023-09-27T21:25:53.897Z",
+        "end_time": "2023-09-27T19:42:56.934Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-09-28T00:29:05.995Z",
+        "updated_at": "2023-09-27T20:14:21.412Z",
+        "car_id": "45653a62-7d1f-4164-be52-49b0b76b880c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a0fb2dc-6a57-4573-90b0-dae8968214ae",
+        "start_time": "2023-09-27T12:52:56.823Z",
+        "end_time": "2023-09-27T04:42:08.438Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T06:44:03.432Z",
+        "updated_at": "2023-09-27T15:06:19.555Z",
+        "car_id": "1a0682e9-a89c-4ce3-87c3-13435b102b8b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3db2928-ffd7-4927-a6de-c86caefa0fa7",
+        "start_time": "2023-09-27T21:18:39.055Z",
+        "end_time": "2023-09-27T05:50:06.452Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Gym",
+        "status": "Completed",
+        "created_at": "2023-09-28T01:13:53.804Z",
+        "updated_at": "2023-09-27T19:29:30.938Z",
+        "car_id": "8e909aa1-4a1f-4a65-9d20-adf4e8b6038f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f852f056-dc4e-44f6-a6b3-09188267165a",
+        "start_time": "2023-09-28T03:49:02.031Z",
+        "end_time": "2023-09-27T17:39:19.372Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Movie Theater",
+        "status": "In Progress",
+        "created_at": "2023-09-27T09:08:20.545Z",
+        "updated_at": "2023-09-27T05:44:22.413Z",
+        "car_id": "45653a62-7d1f-4164-be52-49b0b76b880c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9276db54-5af9-4fb6-9164-5e219566632b",
+        "email": "Trudie51@roq.tech",
+        "firstName": "Sonny",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84754631",
+        "tenantId": null
+      },
+      {
+        "reference": "b1dfa8a3-a060-4816-8465-0838803fddc7",
+        "email": "Jerrod.Christiansen@roq.tech",
+        "firstName": "Syble",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86032058",
+        "tenantId": null
+      },
+      {
+        "reference": "20885ae1-5347-4b23-818f-a3ca96c1e301",
+        "email": "Schuyler57@roq.tech",
+        "firstName": "Lindsay",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/108.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "954efdb5-3d01-48d4-84c9-641c9751e5c4",
+        "email": "Braulio50@roq.tech",
+        "firstName": "Kylie",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d08ef67c-78d0-412a-a97f-3b426c9c0b60",
+        "email": "Maude.Bernier69@roq.tech",
+        "firstName": "Bridget",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "da2de9a3-7ac6-432f-8485-0f086e6f14ce",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T11:27:35.605Z",
+        "updated_at": "2023-09-27T23:27:34.967Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88fe0c7a-4e82-4650-a9c0-689db99ce79d",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for analyzing marketing campaigns",
+        "created_at": "2023-09-27T14:47:22.633Z",
+        "updated_at": "2023-09-27T08:46:43.141Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5ef8ce0-036f-4ef1-a868-bda604edae62",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial reporting",
+        "created_at": "2023-09-27T05:34:44.799Z",
+        "updated_at": "2023-09-27T06:45:00.099Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9767e821-9a47-4713-8534-6eed2cd816ac",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-28T02:29:10.919Z",
+        "updated_at": "2023-09-27T13:45:01.596Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d53458d7-5391-4619-94d8-7c69b223ce7f",
+        "dashboard_name": "Production Dashboard",
+        "dashboard_description": "Dashboard for monitoring production",
+        "created_at": "2023-09-27T05:06:25.090Z",
+        "updated_at": "2023-09-27T20:04:50.421Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "cce379bf-7eef-4a2f-972f-cf72f89f5fd4",
+        "manager_name": "John Doe",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T03:19:26.620Z",
+        "updated_at": "2023-09-27T07:40:49.624Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "64f9cc1a-1426-4dbf-a472-b4ee22f3b138",
+        "manager_name": "Jane Smith",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-27T10:09:48.033Z",
+        "updated_at": "2023-09-27T09:05:26.437Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6eeefda-c0ab-4c78-aa69-9c7b9514856b",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T02:48:49.345Z",
+        "updated_at": "2023-09-27T13:47:02.904Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "189bbd09-a28f-436a-b305-f4f05bd49c9c",
+        "manager_name": "Sarah Jones",
+        "contact_number": "888-999-0000",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T00:25:42.591Z",
+        "updated_at": "2023-09-27T22:44:17.640Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f8af2409-9b2f-4c82-8394-8362df2cef0b",
+        "manager_name": "Robert Wilson",
+        "contact_number": "111-222-3333",
+        "address": "654 Maple Road",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-27T12:58:11.371Z",
+        "updated_at": "2023-09-27T11:56:21.521Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "4dd888da-bcd4-4dde-8397-5e82453a4eb4",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 43837,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": false,
+        "created_at": "2023-09-28T02:48:33.689Z",
+        "updated_at": "2023-09-28T00:53:39.073Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d21c9140-0866-43ce-91a8-21ab40f0beab",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 88808,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": true,
+        "created_at": "2023-09-27T07:18:14.124Z",
+        "updated_at": "2023-09-27T17:51:43.215Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e0db56b-7b76-48cf-af33-a04c31a27f2a",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 81260,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability": false,
+        "created_at": "2023-09-27T20:27:40.708Z",
+        "updated_at": "2023-09-27T08:55:42.140Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "74c8b360-0e7b-4105-a889-bb006c09f404",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 59155,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability": true,
+        "created_at": "2023-09-28T01:13:25.138Z",
+        "updated_at": "2023-09-27T11:42:53.030Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96b12304-df76-4c8d-a453-0498d46275e2",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 23615,
+        "color": "White",
+        "license_plate": "456DEF",
+        "availability": false,
+        "created_at": "2023-09-27T22:10:41.123Z",
+        "updated_at": "2023-09-27T22:02:29.744Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6340cb99-a918-4d75-a39c-d2a1ee1cdbe2",
+        "start_time": "2023-09-27T12:59:05.957Z",
+        "end_time": "2023-09-27T12:05:56.428Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "status": "Pending",
+        "created_at": "2023-09-28T02:23:10.010Z",
+        "updated_at": "2023-09-27T08:53:39.312Z",
+        "car_id": "96b12304-df76-4c8d-a453-0498d46275e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de323816-e90f-4cef-9a1c-d86360223b94",
+        "start_time": "2023-09-28T00:21:40.231Z",
+        "end_time": "2023-09-27T16:27:27.929Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T13:10:16.399Z",
+        "updated_at": "2023-09-27T11:43:18.983Z",
+        "car_id": "96b12304-df76-4c8d-a453-0498d46275e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10f1e4a8-ffab-4916-9023-b3c859115d31",
+        "start_time": "2023-09-28T03:04:53.512Z",
+        "end_time": "2023-09-27T05:01:44.748Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T12:24:34.252Z",
+        "updated_at": "2023-09-27T14:19:38.729Z",
+        "car_id": "d21c9140-0866-43ce-91a8-21ab40f0beab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7db455e-13cd-45a3-be21-be59df794bc6",
+        "start_time": "2023-09-28T01:47:38.278Z",
+        "end_time": "2023-09-27T09:23:55.920Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "status": "Completed",
+        "created_at": "2023-09-27T17:52:48.884Z",
+        "updated_at": "2023-09-27T07:11:30.682Z",
+        "car_id": "96b12304-df76-4c8d-a453-0498d46275e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7aca2258-d5d7-423a-a742-746009392a6f",
+        "start_time": "2023-09-27T19:00:46.675Z",
+        "end_time": "2023-09-27T22:56:48.380Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "status": "In Progress",
+        "created_at": "2023-09-27T16:29:30.542Z",
+        "updated_at": "2023-09-27T09:35:49.831Z",
+        "car_id": "4dd888da-bcd4-4dde-8397-5e82453a4eb4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd635409-e50b-496d-a05c-bd3a088f4d25",
+        "email": "Janessa98@roq.tech",
+        "firstName": "Cary",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/232.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d2b47e9-282a-4727-8e5e-ee7169b460a8",
+        "email": "Eugenia97@roq.tech",
+        "firstName": "Antonetta",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/968.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "473bc140-5786-41f2-8eff-ab1ff504aea5",
+        "email": "Lora_Bogan72@roq.tech",
+        "firstName": "Estelle",
+        "lastName": "Adams-Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/219.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7c29056-62f1-4d99-a13e-66a01531a77c",
+        "email": "Jalyn.Stehr21@roq.tech",
+        "firstName": "Kenna",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29625818",
+        "tenantId": null
+      },
+      {
+        "reference": "856bdd1a-4968-4a09-b3f4-e4f36a34b630",
+        "email": "Annie.Howell@roq.tech",
+        "firstName": "Garnet",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39674948",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "04168cad-480a-4b29-acad-8fee28dec6b4",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T22:50:49.739Z",
+        "updated_at": "2023-09-27T07:17:42.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34489237-a717-44a5-9be0-ae27f85b39aa",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for monitoring marketing campaigns",
+        "created_at": "2023-09-27T07:39:25.608Z",
+        "updated_at": "2023-09-27T13:25:20.357Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad9c5bbf-47fc-4987-89e9-a0f3f921eceb",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial analysis",
+        "created_at": "2023-09-27T19:22:02.285Z",
+        "updated_at": "2023-09-27T21:08:37.208Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "087daac9-0e54-4357-82fc-9bef760ee9aa",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR operations",
+        "created_at": "2023-09-27T07:27:50.559Z",
+        "updated_at": "2023-09-27T09:19:38.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404fdfa0-47fe-47d1-9c30-a23f15d1fff7",
+        "dashboard_name": "Production Dashboard",
+        "dashboard_description": "Dashboard for monitoring production metrics",
+        "created_at": "2023-09-27T10:40:06.215Z",
+        "updated_at": "2023-09-27T09:34:05.858Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "59cac8b4-0a9a-44e1-9777-6839817440ec",
+        "manager_name": "John Doe",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-27T20:29:57.081Z",
+        "updated_at": "2023-09-27T04:47:24.553Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7e9b682-a64e-4a81-bfce-eb7ba01da4d8",
+        "manager_name": "Jane Smith",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T02:12:07.638Z",
+        "updated_at": "2023-09-28T02:38:13.414Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d22fdcb4-d2a5-482a-a761-c8ef4153318e",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-27T21:14:16.513Z",
+        "updated_at": "2023-09-27T20:55:37.976Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b1114b5d-1be3-4da3-a77c-c3dc59809dc4",
+        "manager_name": "Sarah Johnson",
+        "contact_number": "888-999-0000",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T02:31:44.204Z",
+        "updated_at": "2023-09-28T02:13:01.590Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "16ce856a-a9fd-483a-a9c7-6c9a2b01c024",
+        "manager_name": "Robert Wilson",
+        "contact_number": "111-222-3333",
+        "address": "654 Maple Road",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-28T04:06:45.987Z",
+        "updated_at": "2023-09-28T00:00:49.555Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "96f1d6a4-da6d-44db-b94a-118dfc201c83",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 95920,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": true,
+        "created_at": "2023-09-27T09:22:25.587Z",
+        "updated_at": "2023-09-27T22:42:33.756Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4f13215a-9185-42f0-8704-637808085597",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 91801,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": false,
+        "created_at": "2023-09-27T14:45:48.888Z",
+        "updated_at": "2023-09-27T07:37:41.751Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f4f2f67d-bf52-404d-8241-7293af7c9c27",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 43222,
+        "color": "Black",
+        "license_plate": "123ABC",
+        "availability": false,
+        "created_at": "2023-09-27T20:58:48.084Z",
+        "updated_at": "2023-09-27T15:18:32.399Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4ded0a01-f78e-499b-91e9-cb80fbee4fe6",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 15544,
+        "color": "White",
+        "license_plate": "789XYZ",
+        "availability": true,
+        "created_at": "2023-09-28T02:53:02.652Z",
+        "updated_at": "2023-09-27T08:28:53.678Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80b9f173-9793-499f-8fff-e995c09f4d5d",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 48588,
+        "color": "Silver",
+        "license_plate": "QWE456",
+        "availability": true,
+        "created_at": "2023-09-28T01:36:16.634Z",
+        "updated_at": "2023-09-27T21:02:09.468Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1f1516e8-f12b-443e-bc9c-7f9fd4ca631e",
+        "start_time": "2023-09-27T14:57:13.161Z",
+        "end_time": "2023-09-27T18:41:03.916Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "status": "Pending",
+        "created_at": "2023-09-27T10:54:20.728Z",
+        "updated_at": "2023-09-27T14:16:06.073Z",
+        "car_id": "f4f2f67d-bf52-404d-8241-7293af7c9c27",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46391dc3-a407-4408-9331-366848474a67",
+        "start_time": "2023-09-27T18:16:10.307Z",
+        "end_time": "2023-09-27T07:50:38.628Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T14:56:37.340Z",
+        "updated_at": "2023-09-27T05:47:50.782Z",
+        "car_id": "f4f2f67d-bf52-404d-8241-7293af7c9c27",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f5a54bd-7afc-4b08-9656-6c7ba5a443cf",
+        "start_time": "2023-09-28T04:18:36.735Z",
+        "end_time": "2023-09-27T17:24:58.930Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "status": "In Progress",
+        "created_at": "2023-09-27T09:36:05.821Z",
+        "updated_at": "2023-09-28T01:44:05.799Z",
+        "car_id": "4ded0a01-f78e-499b-91e9-cb80fbee4fe6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15ebec72-0ad5-4aba-98ec-87df676e2995",
+        "start_time": "2023-09-27T06:53:21.969Z",
+        "end_time": "2023-09-27T09:55:08.956Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Movie Theater",
+        "status": "Completed",
+        "created_at": "2023-09-27T10:19:32.978Z",
+        "updated_at": "2023-09-28T00:06:14.714Z",
+        "car_id": "4ded0a01-f78e-499b-91e9-cb80fbee4fe6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fce59e5-56db-4c5b-88b5-25b0fd21ad01",
+        "start_time": "2023-09-28T01:42:30.957Z",
+        "end_time": "2023-09-27T15:59:34.483Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Gym",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T12:14:33.764Z",
+        "updated_at": "2023-09-27T11:13:34.930Z",
+        "car_id": "4ded0a01-f78e-499b-91e9-cb80fbee4fe6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "13d79209-8de5-4bf6-9858-f2e384d2939f",
+        "email": "Khalil79@roq.tech",
+        "firstName": "Chloe",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74007288",
+        "tenantId": null
+      },
+      {
+        "reference": "ef42c457-8c03-45c4-8468-6c3f51f86b6f",
+        "email": "Chyna.Klocko77@roq.tech",
+        "firstName": "Orion",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b38e096-1898-4111-81ff-4f2829bdac26",
+        "email": "Ida35@roq.tech",
+        "firstName": "Wilburn",
+        "lastName": "Hoppe-Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35626594",
+        "tenantId": null
+      },
+      {
+        "reference": "28a69e93-1741-47da-97d8-31c4ad4d3615",
+        "email": "Israel_Morissette@roq.tech",
+        "firstName": "Henriette",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63047710",
+        "tenantId": null
+      },
+      {
+        "reference": "d5d8bb12-c105-4269-bb11-27ba544b4328",
+        "email": "Lindsey52@roq.tech",
+        "firstName": "Alejandrin",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/378.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "dc24356d-6fb3-4cb0-ba87-d964084a2047",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T10:42:00.312Z",
+        "updated_at": "2023-09-27T15:54:27.346Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a245db7a-5aee-4b29-8478-132624950c67",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for analyzing marketing campaigns",
+        "created_at": "2023-09-27T12:21:30.030Z",
+        "updated_at": "2023-09-28T00:09:27.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7490831b-c115-4aba-b81a-a1ff794861ee",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial reporting",
+        "created_at": "2023-09-28T01:29:49.610Z",
+        "updated_at": "2023-09-27T19:28:37.676Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "211c498e-09ed-4279-a12c-c1d6b8192ca5",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T17:27:34.645Z",
+        "updated_at": "2023-09-28T03:31:53.201Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe5c5034-dd73-40aa-ac05-2eeaff9d766e",
+        "dashboard_name": "Production Dashboard",
+        "dashboard_description": "Dashboard for monitoring production metrics",
+        "created_at": "2023-09-28T04:23:34.816Z",
+        "updated_at": "2023-09-27T16:35:27.528Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "510ad820-e4a9-489e-bca5-e00297c7a0e5",
+        "manager_name": "John Smith",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T03:33:14.744Z",
+        "updated_at": "2023-09-27T11:39:33.270Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1405649c-b276-4849-afb8-7a060f00496c",
+        "manager_name": "Jane Doe",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-27T17:07:33.893Z",
+        "updated_at": "2023-09-27T22:36:24.841Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb0682a4-9cb7-4ba0-bf61-9059593a4ab3",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-27T18:33:45.352Z",
+        "updated_at": "2023-09-27T06:30:25.765Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bff2a36a-388d-4eb4-8c0b-50b70948316c",
+        "manager_name": "Sarah Jones",
+        "contact_number": "888-999-0000",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T01:11:37.019Z",
+        "updated_at": "2023-09-27T21:13:13.091Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c5f44bf-0788-4a48-9a45-b85b6c691d09",
+        "manager_name": "David Wilson",
+        "contact_number": "111-222-3333",
+        "address": "654 Maple Road",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-27T09:56:59.918Z",
+        "updated_at": "2023-09-27T05:11:38.776Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d76230c0-1e5f-4ee1-a702-ed80c3ad1e54",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 41049,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": true,
+        "created_at": "2023-09-28T03:15:31.778Z",
+        "updated_at": "2023-09-27T14:47:08.562Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c22f604b-fd7c-4f67-9836-d348c717b613",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 64050,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": true,
+        "created_at": "2023-09-27T16:08:57.934Z",
+        "updated_at": "2023-09-28T02:15:43.126Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "167752a4-c121-4d2d-9fd4-86a39932953b",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 44732,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability": false,
+        "created_at": "2023-09-27T12:13:47.594Z",
+        "updated_at": "2023-09-27T05:30:18.277Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e26327b1-e136-4fb5-910c-2f5dc9f55e99",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 85498,
+        "color": "Silver",
+        "license_plate": "789XYZ",
+        "availability": false,
+        "created_at": "2023-09-27T05:26:25.913Z",
+        "updated_at": "2023-09-28T00:38:07.949Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "596b4267-fc6c-4f54-93ed-e8d512862436",
+        "model": "Minivan",
+        "make": "BMW",
+        "year": 33528,
+        "color": "Black",
+        "license_plate": "456DEF",
+        "availability": true,
+        "created_at": "2023-09-28T03:46:03.766Z",
+        "updated_at": "2023-09-27T08:55:36.466Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "54a48eb0-82dc-4468-8165-032bdacf9fe4",
+        "start_time": "2023-09-27T15:01:49.178Z",
+        "end_time": "2023-09-27T11:50:13.958Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "status": "Pending",
+        "created_at": "2023-09-28T02:08:47.454Z",
+        "updated_at": "2023-09-27T10:43:49.052Z",
+        "car_id": "c22f604b-fd7c-4f67-9836-d348c717b613",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "145532b7-1df2-47e9-9860-5f05d7c0f58d",
+        "start_time": "2023-09-27T20:44:37.072Z",
+        "end_time": "2023-09-27T21:15:02.828Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T21:27:30.701Z",
+        "updated_at": "2023-09-27T05:08:56.031Z",
+        "car_id": "e26327b1-e136-4fb5-910c-2f5dc9f55e99",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29b65da9-cb16-47be-acfd-acef27c46389",
+        "start_time": "2023-09-27T15:56:46.859Z",
+        "end_time": "2023-09-28T04:30:02.732Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T09:35:19.278Z",
+        "updated_at": "2023-09-27T17:28:30.218Z",
+        "car_id": "e26327b1-e136-4fb5-910c-2f5dc9f55e99",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de0eef61-ab3f-40c4-bfe4-7dfc21468f80",
+        "start_time": "2023-09-27T15:40:14.771Z",
+        "end_time": "2023-09-28T02:51:27.001Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Hospital",
+        "status": "Completed",
+        "created_at": "2023-09-27T08:29:38.642Z",
+        "updated_at": "2023-09-27T06:31:05.498Z",
+        "car_id": "596b4267-fc6c-4f54-93ed-e8d512862436",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e06a4d0b-3e00-4faf-b9fb-2c9270763818",
+        "start_time": "2023-09-27T14:49:27.606Z",
+        "end_time": "2023-09-28T03:13:10.724Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Movie Theater",
+        "status": "In Progress",
+        "created_at": "2023-09-27T18:33:33.019Z",
+        "updated_at": "2023-09-27T09:18:34.207Z",
+        "car_id": "596b4267-fc6c-4f54-93ed-e8d512862436",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0fe33170-54f3-4b36-a1d1-8747b54b229b",
+        "email": "Shanny15@roq.tech",
+        "firstName": "Oswaldo",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1131204",
+        "tenantId": null
+      },
+      {
+        "reference": "5858ead2-b0f4-494c-9f3b-5dcc550e1c2d",
+        "email": "Akeem_Harris@roq.tech",
+        "firstName": "Alta",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/392.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c91706f-51cb-4cf2-8f48-7d96cb7495de",
+        "email": "Sydney_Bosco11@roq.tech",
+        "firstName": "Lauriane",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20542318",
+        "tenantId": null
+      },
+      {
+        "reference": "63c063c5-3be8-4b1c-a0d1-42b27c50d465",
+        "email": "Zora19@roq.tech",
+        "firstName": "Kaia",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/930.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15a7541c-43b3-4130-baa8-50d534b1a080",
+        "email": "Mariam70@roq.tech",
+        "firstName": "Tessie",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83655591",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "04a614da-b386-4a4c-aff0-efdcc2eb9d21",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-28T02:25:01.922Z",
+        "updated_at": "2023-09-27T09:30:32.884Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3305bf43-0b2d-4e58-96a2-438926717e32",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for monitoring marketing campaigns",
+        "created_at": "2023-09-27T06:08:44.502Z",
+        "updated_at": "2023-09-27T04:38:03.474Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39d0e1de-e3e3-446e-9e4c-fb0092e9ef93",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial analysis",
+        "created_at": "2023-09-27T14:25:45.077Z",
+        "updated_at": "2023-09-27T19:35:05.877Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "297bd2a9-de8a-49a6-9156-dc48e05b3d25",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T20:07:42.125Z",
+        "updated_at": "2023-09-27T17:04:04.201Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b34a187-3bc8-4fc6-b47e-fe1841c672c1",
+        "dashboard_name": "Inventory Dashboard",
+        "dashboard_description": "Dashboard for tracking inventory levels",
+        "created_at": "2023-09-27T22:03:17.026Z",
+        "updated_at": "2023-09-27T19:18:59.553Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "4482b935-6498-417f-8fa1-759990abfd8f",
+        "manager_name": "John Smith",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-27T13:14:08.295Z",
+        "updated_at": "2023-09-27T12:20:02.472Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c789bccd-72bf-4461-9926-a8c4067a6557",
+        "manager_name": "Jane Johnson",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T03:07:52.709Z",
+        "updated_at": "2023-09-28T01:52:00.120Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "610549fc-e8b2-4f70-aa51-3580833919c4",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-27T06:02:37.036Z",
+        "updated_at": "2023-09-28T04:10:59.649Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "119ca187-a105-4113-86ab-35ddeb3cff39",
+        "manager_name": "Sarah Davis",
+        "contact_number": "888-999-0000",
+        "address": "321 Pine Road",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-27T11:01:53.671Z",
+        "updated_at": "2023-09-27T16:19:00.713Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c94c3461-1ada-4f45-a2e0-5f2153b60823",
+        "manager_name": "Robert Wilson",
+        "contact_number": "444-555-6666",
+        "address": "654 Maple Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-09-27T15:35:28.265Z",
+        "updated_at": "2023-09-27T23:24:44.735Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "f742d70e-edb1-4c95-bfd8-9ae342556d92",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 64422,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": true,
+        "created_at": "2023-09-27T05:01:48.002Z",
+        "updated_at": "2023-09-27T05:20:23.819Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "28b42f3f-df53-4337-8162-d0af1aaa4cf9",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 67260,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": true,
+        "created_at": "2023-09-27T19:37:54.455Z",
+        "updated_at": "2023-09-27T13:01:57.386Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4dfc578-3be7-4b52-a010-ba8c460bfb5e",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 14389,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability": true,
+        "created_at": "2023-09-27T18:31:09.754Z",
+        "updated_at": "2023-09-27T06:29:02.072Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1644eb3e-57c8-4b67-b971-244ac8e579a6",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 54043,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "availability": true,
+        "created_at": "2023-09-27T23:34:12.616Z",
+        "updated_at": "2023-09-27T12:12:42.700Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "64dd980a-ad9d-4781-9c2a-fd229575b751",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 8457,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "availability": true,
+        "created_at": "2023-09-28T02:20:30.650Z",
+        "updated_at": "2023-09-28T01:26:52.590Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6b8693f2-d989-43f7-b931-168ddb07a906",
+        "start_time": "2023-09-27T16:12:14.772Z",
+        "end_time": "2023-09-27T17:53:14.286Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "status": "Pending",
+        "created_at": "2023-09-27T09:48:02.902Z",
+        "updated_at": "2023-09-27T15:11:09.707Z",
+        "car_id": "1644eb3e-57c8-4b67-b971-244ac8e579a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12190408-6889-4c37-a0f3-a288fe1bf410",
+        "start_time": "2023-09-27T11:47:17.537Z",
+        "end_time": "2023-09-27T10:45:53.481Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T13:23:56.088Z",
+        "updated_at": "2023-09-27T16:04:43.048Z",
+        "car_id": "f742d70e-edb1-4c95-bfd8-9ae342556d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c9b6778-f6f2-4968-b1b3-597ff6d8f7c3",
+        "start_time": "2023-09-27T07:21:53.825Z",
+        "end_time": "2023-09-27T14:44:53.003Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T18:46:23.122Z",
+        "updated_at": "2023-09-27T17:51:58.857Z",
+        "car_id": "f742d70e-edb1-4c95-bfd8-9ae342556d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b305b27-314b-4e32-9856-ff4f33bf1bec",
+        "start_time": "2023-09-27T08:55:12.334Z",
+        "end_time": "2023-09-27T08:30:22.743Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Theater",
+        "status": "Completed",
+        "created_at": "2023-09-28T00:37:27.400Z",
+        "updated_at": "2023-09-27T10:09:52.396Z",
+        "car_id": "64dd980a-ad9d-4781-9c2a-fd229575b751",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f197cf93-bace-4d11-8da8-490809502d0b",
+        "start_time": "2023-09-27T08:07:40.876Z",
+        "end_time": "2023-09-27T20:23:04.002Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "status": "In Progress",
+        "created_at": "2023-09-28T00:20:35.871Z",
+        "updated_at": "2023-09-27T18:25:53.788Z",
+        "car_id": "f742d70e-edb1-4c95-bfd8-9ae342556d92",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d55dae32-49e1-4762-a0dd-ba5e732c3809",
+        "email": "Tyrell19@roq.tech",
+        "firstName": "Breanne",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77502560",
+        "tenantId": null
+      },
+      {
+        "reference": "629d9f56-b982-4cd3-8a72-dade8faede77",
+        "email": "Nathen_Hettinger2@roq.tech",
+        "firstName": "Lauren",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4307533",
+        "tenantId": null
+      },
+      {
+        "reference": "f3087025-eb48-4971-aa51-0c5a813cfe53",
+        "email": "Bertha_Medhurst@roq.tech",
+        "firstName": "Jarod",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/521.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3a01503f-90eb-4c0d-b9ef-c0d0defcfd98",
+        "email": "Carmella_DAmore20@roq.tech",
+        "firstName": "Santiago",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2a357d6-8715-4c30-b914-accb0ccbcd69",
+        "email": "Merl88@roq.tech",
+        "firstName": "Jayme",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/64.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "3c4e8181-630f-4519-948b-49f89135d8ae",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T10:46:43.227Z",
+        "updated_at": "2023-09-27T23:46:52.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d9ccf0b-43f4-4012-9c49-be9f753cc527",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for monitoring marketing campaigns",
+        "created_at": "2023-09-28T01:51:20.840Z",
+        "updated_at": "2023-09-27T19:22:55.994Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96fd35e8-128b-4378-8599-6254cb5877de",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial analysis",
+        "created_at": "2023-09-27T21:58:24.850Z",
+        "updated_at": "2023-09-27T09:48:25.506Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1eee804-608b-4980-be40-b9bbf543224a",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T23:56:25.379Z",
+        "updated_at": "2023-09-28T02:04:21.593Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7f25b65-7f2a-4e53-88ed-79fc62e89747",
+        "dashboard_name": "Production Dashboard",
+        "dashboard_description": "Dashboard for monitoring production efficiency",
+        "created_at": "2023-09-28T03:01:23.575Z",
+        "updated_at": "2023-09-27T05:41:14.904Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "4a4bc3c9-80ed-429b-96f1-47489b068a48",
+        "manager_name": "John Doe",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-27T23:27:09.657Z",
+        "updated_at": "2023-09-27T08:24:47.224Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4a14470d-edf1-4139-9c0b-33167e165349",
+        "manager_name": "Jane Smith",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T04:13:27.604Z",
+        "updated_at": "2023-09-27T19:23:10.604Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9b17fb9e-9aca-4efe-905c-66c77ae08a33",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Street",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-27T11:58:07.416Z",
+        "updated_at": "2023-09-28T01:37:48.123Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8d9414f6-2c28-4b0c-bb4f-893435c1c021",
+        "manager_name": "Sarah Jones",
+        "contact_number": "999-888-7777",
+        "address": "321 Pine Street",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-27T16:39:13.243Z",
+        "updated_at": "2023-09-27T13:09:58.954Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90d56b30-c0ac-47df-bd01-d87d0cfdfe2c",
+        "manager_name": "David Wilson",
+        "contact_number": "111-222-3333",
+        "address": "654 Maple Street",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-28T02:21:06.619Z",
+        "updated_at": "2023-09-27T16:59:12.823Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "514dcf34-6012-47a0-b908-9619b3ce7c3a",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 94840,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": true,
+        "created_at": "2023-09-28T03:30:55.362Z",
+        "updated_at": "2023-09-27T05:41:30.246Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a75d741f-40ee-4477-b8f2-d624b3d0d422",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 69430,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": true,
+        "created_at": "2023-09-27T09:09:58.621Z",
+        "updated_at": "2023-09-27T18:44:19.273Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12032ba3-1e17-4531-8275-4c03af5e37d0",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 29678,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability": false,
+        "created_at": "2023-09-27T05:32:09.382Z",
+        "updated_at": "2023-09-28T03:39:18.514Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "be95b825-f0b1-44d7-9b53-e8314488fb33",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 71424,
+        "color": "Silver",
+        "license_plate": "789ABC",
+        "availability": false,
+        "created_at": "2023-09-27T20:49:24.637Z",
+        "updated_at": "2023-09-27T22:42:25.690Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d330fdd7-1cc0-4cc0-a3e5-e9e59c3a3588",
+        "model": "Electric Car",
+        "make": "BMW",
+        "year": 13946,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "availability": false,
+        "created_at": "2023-09-28T00:07:50.466Z",
+        "updated_at": "2023-09-27T05:31:41.976Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d5f44ed7-31dc-4c29-954f-b81293a2a240",
+        "start_time": "2023-09-27T22:41:13.711Z",
+        "end_time": "2023-09-27T21:51:00.762Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "status": "Pending",
+        "created_at": "2023-09-27T22:40:35.963Z",
+        "updated_at": "2023-09-27T09:17:39.677Z",
+        "car_id": "a75d741f-40ee-4477-b8f2-d624b3d0d422",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef41a45b-86ff-4b7b-8f8d-14a67a7dd788",
+        "start_time": "2023-09-27T14:09:11.332Z",
+        "end_time": "2023-09-28T02:38:29.438Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Park",
+        "status": "Confirmed",
+        "created_at": "2023-09-28T00:37:20.451Z",
+        "updated_at": "2023-09-27T23:12:23.705Z",
+        "car_id": "12032ba3-1e17-4531-8275-4c03af5e37d0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0fac5e3-2f97-4c40-948e-729574c087f3",
+        "start_time": "2023-09-28T02:28:23.137Z",
+        "end_time": "2023-09-27T17:01:05.947Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Museum",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T05:27:19.060Z",
+        "updated_at": "2023-09-27T23:56:33.706Z",
+        "car_id": "12032ba3-1e17-4531-8275-4c03af5e37d0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3861f55e-c062-4d0d-bdb6-087ad64d753d",
+        "start_time": "2023-09-28T01:15:21.087Z",
+        "end_time": "2023-09-27T18:01:33.547Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Beach",
+        "status": "Completed",
+        "created_at": "2023-09-27T15:43:37.078Z",
+        "updated_at": "2023-09-27T14:04:54.573Z",
+        "car_id": "514dcf34-6012-47a0-b908-9619b3ce7c3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e405ea1-01ce-427f-847b-95a544802ad4",
+        "start_time": "2023-09-27T04:51:53.209Z",
+        "end_time": "2023-09-28T01:28:03.916Z",
+        "pickup_location": "Office Building",
+        "dropoff_location": "Residential Area",
+        "status": "In Progress",
+        "created_at": "2023-09-27T20:58:17.108Z",
+        "updated_at": "2023-09-27T08:15:07.903Z",
+        "car_id": "514dcf34-6012-47a0-b908-9619b3ce7c3a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "12c7fb19-10c1-426b-9170-1bad4181422d",
+        "email": "Katrina.Jakubowski@roq.tech",
+        "firstName": "Valerie",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3846879",
+        "tenantId": null
+      },
+      {
+        "reference": "1b50b1b6-16dd-414a-a7a5-2cdc4b7dbffa",
+        "email": "Rodger_Corwin73@roq.tech",
+        "firstName": "Shirley",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1242.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a29295c2-ec7d-4962-9a43-d1d4660ad4c9",
+        "email": "Elvie_Bogisich@roq.tech",
+        "firstName": "Murphy",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45411498",
+        "tenantId": null
+      },
+      {
+        "reference": "5071b8e8-1f36-498c-8035-01df53829747",
+        "email": "Leslie.Anderson12@roq.tech",
+        "firstName": "Mortimer",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31324906",
+        "tenantId": null
+      },
+      {
+        "reference": "6b2d896e-b1f3-4181-a994-ae53d49425ee",
+        "email": "Cayla_Crist@roq.tech",
+        "firstName": "Bradford",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40461950",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "5c514634-2d70-463d-ac09-4b3cfd399584",
+        "dashboard_name": "Sales Dashboard",
+        "dashboard_description": "Dashboard for tracking sales performance",
+        "created_at": "2023-09-27T13:11:55.408Z",
+        "updated_at": "2023-09-28T03:53:40.099Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89048373-15a9-4b90-a10e-0e68dbdf00d8",
+        "dashboard_name": "Marketing Dashboard",
+        "dashboard_description": "Dashboard for analyzing marketing campaigns",
+        "created_at": "2023-09-28T02:47:52.439Z",
+        "updated_at": "2023-09-27T20:18:53.180Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "639843d8-2381-4668-b175-d7b53f151189",
+        "dashboard_name": "Finance Dashboard",
+        "dashboard_description": "Dashboard for financial reporting",
+        "created_at": "2023-09-27T05:34:17.110Z",
+        "updated_at": "2023-09-28T02:01:55.691Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a268a5e1-d83b-4d68-8b5c-c8dc4f8da8f7",
+        "dashboard_name": "HR Dashboard",
+        "dashboard_description": "Dashboard for managing HR activities",
+        "created_at": "2023-09-27T20:00:08.200Z",
+        "updated_at": "2023-09-27T11:47:08.133Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64c99e7-2b96-4e6b-b712-62289edd2805",
+        "dashboard_name": "Production Dashboard",
+        "dashboard_description": "Dashboard for monitoring production metrics",
+        "created_at": "2023-09-27T17:28:35.738Z",
+        "updated_at": "2023-09-27T21:42:26.457Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "46f88e00-e85b-4497-b380-247b9c1a33e8",
+        "manager_name": "John Smith",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-27T11:05:39.884Z",
+        "updated_at": "2023-09-27T04:56:06.215Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4b860ee-50dd-43c1-8c1c-6c1423bbd3c1",
+        "manager_name": "Jane Johnson",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-27T12:33:12.353Z",
+        "updated_at": "2023-09-28T02:58:27.802Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7df1a34e-27c0-46d8-8090-4a603ba595df",
+        "manager_name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T01:58:47.040Z",
+        "updated_at": "2023-09-28T01:51:44.219Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a8a894c0-7b3d-4302-b779-bb9fea5e9a18",
+        "manager_name": "Sarah Davis",
+        "contact_number": "888-999-0000",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-27T19:04:05.927Z",
+        "updated_at": "2023-09-27T21:05:58.362Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "988e4aaf-b39f-4c34-98dc-91784923121f",
+        "manager_name": "David Wilson",
+        "contact_number": "111-222-3333",
+        "address": "654 Maple Court",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-28T03:42:10.411Z",
+        "updated_at": "2023-09-27T12:38:50.492Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "a34c68dc-9b91-4e53-bec1-ba4e26959338",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 24205,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability": false,
+        "created_at": "2023-09-27T18:08:42.421Z",
+        "updated_at": "2023-09-27T07:27:42.627Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f5a5dc8e-dbe0-473b-9bfe-879eec12d436",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 41805,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability": false,
+        "created_at": "2023-09-27T12:53:55.246Z",
+        "updated_at": "2023-09-27T22:57:37.940Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7eff5ff4-9614-4e4c-b03e-357747d1734b",
+        "model": "Sports Car",
+        "make": "Ford",
+        "year": 45427,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability": false,
+        "created_at": "2023-09-27T05:22:59.977Z",
+        "updated_at": "2023-09-28T01:18:28.356Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "62d0d9c9-a165-4a47-a5cf-a3075b09463c",
+        "model": "Compact",
+        "make": "Chevrolet",
+        "year": 346,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability": false,
+        "created_at": "2023-09-27T08:35:45.217Z",
+        "updated_at": "2023-09-28T01:47:03.572Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "34ff5304-cbf5-416a-94b0-26f3f772298f",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 83493,
+        "color": "White",
+        "license_plate": "QWE456",
+        "availability": true,
+        "created_at": "2023-09-28T01:26:19.646Z",
+        "updated_at": "2023-09-27T08:17:25.828Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "289df34d-8c3f-4a5a-9df3-1425e6360a74",
+        "start_time": "2023-09-27T21:12:08.965Z",
+        "end_time": "2023-09-27T11:31:07.861Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "status": "Pending",
+        "created_at": "2023-09-27T07:44:13.233Z",
+        "updated_at": "2023-09-27T22:00:33.882Z",
+        "car_id": "f5a5dc8e-dbe0-473b-9bfe-879eec12d436",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44e55f29-0d97-409d-b621-6afd950246ea",
+        "start_time": "2023-09-27T06:28:19.842Z",
+        "end_time": "2023-09-27T19:50:08.600Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-09-27T22:55:17.226Z",
+        "updated_at": "2023-09-27T06:55:31.369Z",
+        "car_id": "f5a5dc8e-dbe0-473b-9bfe-879eec12d436",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "161621d8-069d-499c-8819-46f5c1d5bdaf",
+        "start_time": "2023-09-27T19:17:52.200Z",
+        "end_time": "2023-09-27T05:49:00.226Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "status": "Cancelled",
+        "created_at": "2023-09-27T09:40:43.538Z",
+        "updated_at": "2023-09-27T23:11:29.887Z",
+        "car_id": "34ff5304-cbf5-416a-94b0-26f3f772298f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f043030-dd0c-486f-9145-71077ac671b8",
+        "start_time": "2023-09-27T05:54:00.101Z",
+        "end_time": "2023-09-27T04:47:04.632Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Theater",
+        "status": "Completed",
+        "created_at": "2023-09-28T04:12:22.460Z",
+        "updated_at": "2023-09-27T08:46:53.809Z",
+        "car_id": "34ff5304-cbf5-416a-94b0-26f3f772298f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8a7202b-0ca2-44c1-bb1d-df3989a1ce1a",
+        "start_time": "2023-09-27T08:11:06.466Z",
+        "end_time": "2023-09-27T13:29:46.566Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "status": "In Progress",
+        "created_at": "2023-09-28T02:43:33.341Z",
+        "updated_at": "2023-09-27T22:51:24.489Z",
+        "car_id": "34ff5304-cbf5-416a-94b0-26f3f772298f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "30950a13-85dd-4712-99b1-67dc88621353",
+        "email": "Felton_Moore@roq.tech",
+        "firstName": "Tremaine",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52621822",
+        "tenantId": null
+      },
+      {
+        "reference": "98871f3c-760d-4267-b9b1-cdbb603e4d82",
+        "email": "Clay2@roq.tech",
+        "firstName": "Jace",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/196.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f8bf61a9-b497-4889-90a6-019016586ce6",
+        "email": "Sadie_Stroman@roq.tech",
+        "firstName": "Cleora",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7690331",
+        "tenantId": null
+      },
+      {
+        "reference": "b36aae89-d811-41d6-9a8e-4c6307b0cfcf",
+        "email": "Gianni87@roq.tech",
+        "firstName": "Alberta",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/340.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "072f9106-4dc4-40d5-93a1-811423f9b311",
+        "email": "Abelardo49@roq.tech",
+        "firstName": "Patricia",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7822859",
+        "tenantId": null
+      }
+    ]
+  }
+]
